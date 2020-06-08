@@ -9,14 +9,14 @@ public class Test1 {
 		// int[] A = { -1 };
 		System.out.println(solution(A));
 
-		// String s = "13 DUP 4 POP 5 DUP + DUP + -";
+		String s = "13 DUP 4 POP 5 DUP + DUP + -";
 		// String s = "5 6 + -";
 		// String s = "3 DUP 5 - -";
 		// String s = "POP";
-		// System.out.println(solution2(s));
+		System.out.println(solution2(s));
 
-		// int N = 11;
-		// System.out.println(solution3(N));
+		int N = 11;
+		System.out.println(solution3(N));
 	}
 
 	private static int solution(int[] a) {

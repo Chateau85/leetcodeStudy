@@ -10,7 +10,8 @@ public class Solution {
 		// int[] arr = { 4, 2, 1, 3 };
 		// int[] arr = { 1, 3, 6, 10, 15 };
 		int[] arr = { 3, 8, -10, 23, 19, -4, -14, 27 };
-		List<List<Integer>> listList = minimumAbsDifference(arr);
+		List<List<Integer>> list = minimumAbsDifference(arr);
+		System.out.println(list);
 	}
 
 	private static List<List<Integer>> minimumAbsDifference(int[] arr) {

@@ -10,6 +10,8 @@ public class Solution {
 		int left = 1, right = 22;
 		List<Integer> result = selfDividingNumbers(left, right);
 		List<Integer> result2 = selfDividingNumbers2(left, right);
+		System.out.println(result);
+		System.out.println(result2);
 	}
 
 	private static List<Integer> selfDividingNumbers(int left, int right) {

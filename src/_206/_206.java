@@ -1,7 +1,5 @@
 package _206;
 
-import java.util.Stack;
-
 public class _206 {
 
 	public static void main(String[] args) {
@@ -17,7 +15,7 @@ public class _206 {
 		l4.next = l5;
 
 		ListNode result = reverseList(l1);
-		System.out.println();
+		System.out.println(result);
 	}
 
 	public static ListNode reverseList(ListNode head) {

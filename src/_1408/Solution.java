@@ -11,10 +11,11 @@ public class Solution {
 		// String[] words = { "leetcode", "et", "code" };
 		String[] words = { "blue", "green", "bu" };
 		List<String> result = stringMatching(words);
+		System.out.println(result);
 	}
 
 	private static List<String> stringMatching(String[] words) {
-		HashSet<String> set = new HashSet();
+		HashSet<String> set = new HashSet<>();
 		for (int i = 0; i < words.length; i++) {
 			for (int j = 0; j < words.length; j++) {
 				if (words[i].length() < words[j].length()) {

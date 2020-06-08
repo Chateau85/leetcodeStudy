@@ -1,7 +1,6 @@
 package _1436;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -55,6 +54,7 @@ public class Solution {
 
 		String dest = destCity(paths);
 		String dest2 = destCity2(paths);
+		System.out.println(dest);
 		System.out.println(dest2);
 	}
 
@@ -87,7 +87,7 @@ public class Solution {
 	}
 
 	private static String destCity2(List<List<String>> paths) {
-		HashSet<String> set = new HashSet();
+		HashSet<String> set = new HashSet<>();
 		for (List<String> listCityA : paths) {
 			set.add(listCityA.get(0));
 		}
