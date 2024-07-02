@@ -1,7 +1,5 @@
 package NewSources;
 
-import org.junit.Test;
-
 public class RunningSum_1480 {
     public int[] runningSum(int[] nums) {
         int[] results = new int[nums.length];

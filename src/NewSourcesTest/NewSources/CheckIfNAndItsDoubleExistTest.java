@@ -1,8 +1,7 @@
 package NewSources;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CheckIfNAndItsDoubleExistTest {
 
@@ -10,6 +9,6 @@ public class CheckIfNAndItsDoubleExistTest {
     public void checkIfExist() {
         CheckIfNAndItsDoubleExist t = new CheckIfNAndItsDoubleExist();
         int[] arr = new int[]{3, 1, 7, 11};
-        assertTrue(t.checkIfExist(arr));
+        Assert.assertTrue(t.checkIfExist(arr));
     }
 }
